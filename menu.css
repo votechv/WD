@@ -1,0 +1,124 @@
+*{
+    padding:0;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+li{
+      width: 15%;
+      margin: 10px 0;
+}
+.nav li a:hover{
+    color: rgb(80, 80, 80);
+}
+li img{
+      width: 150px;
+      position: relative;
+      right: 30px;
+}
+
+.nav li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+.nav{
+    width: auto;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.cars{
+    padding-top: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cars .onecar{
+    width: 33%;
+    height: 50vh;
+}
+.cars .onecar:hover{
+    opacity: 0.5;
+}
+
+.cars img{
+    width: 80%;
+}
+.move{
+    padding-top: 11%;
+}
+.black1{
+    position: absolute;
+    top: 100vh;
+    width:100%;
+    height: 20px;
+    background-color: rgb(80, 80, 80);
+}
+h2{
+    padding-top: 10%;
+}
+.black2{
+    position: absolute;
+    top: 200vh;
+    width:100%;
+    height: 20px;
+    background-color: rgb(80, 80, 80);
+}
+
+.black3{
+    position: absolute;
+    top: 300vh;
+    width:100%;
+    height: 20px;
+    background-color: rgb(80, 80, 80);
+}
+.blesk{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blesk img{
+    width: 40%;
+}
+.blesk p{
+    width: 50%;
+}
+
+@media only screen and (max-width: 692px) {
+    .nav ul { 
+        flex-direction: column; 
+      align-items: center; 
+     }
+     ul img{
+         position: relative;
+        right: 50%;
+     }
+     .cars{
+        flex-direction: column; 
+        align-items: center; 
+     }
+     .cars img{
+        width: 200px;
+     }
+
+     .blesk{
+        flex-direction: column; 
+      align-items: center; 
+     }
+  }
+
