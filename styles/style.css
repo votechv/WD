@@ -495,3 +495,14 @@ p{padding: 15px;
     color: rgb(170, 14, 14);
     border: unset;
   }
+
+
+  footer{
+    width: 100%;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+  }
